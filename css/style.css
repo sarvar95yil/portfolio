@@ -6,11 +6,25 @@ body {
     background: #20202D;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
 .container {
     max-width: 945px;
     margin: auto;
+}
+
+.section {
+    padding-top: 64px;
+    padding-bottom: 92px;
+}
+
+.section-title {
+    margin: 0;
+    margin-bottom: 84px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
 }
 
 .hero {
@@ -84,4 +98,40 @@ body {
     background-position: center top -5px;
     background-size: 120%;
     border: 13px solid #fff;
+}
+
+/*features*/
+
+.features {
+    background-color: #000;
+
+}
+
+.features-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features-item {
+    flex-basis: 33%;
+    margin-bottom: 63px;
+}
+
+.features-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.features-image {
+    margin-bottom: 22px;
+}
+
+.features-text {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
 }
