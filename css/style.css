@@ -39,13 +39,14 @@ body {
     align-items: center;
 }
 
-.social-links {
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .social-link {
-    margin-right: 21px;
+    margin-left: 20px;
+}
+
+.social-link:first-child {
+    margin-left: 0;
 }
 
 .hero-content {
@@ -138,6 +139,12 @@ body {
 
 /* contacts */
 
+.contacts-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .contatcs-form {
     background: #FFFFFF;
     box-shadow: -5px 5px 0px #FFC41D;
@@ -162,6 +169,68 @@ body {
     border-radius: 5px;
     width: 100%;
     padding: 18px 20px;
+    padding-left: 50px;
     font-size: 14px;
     line-height: 28px;
+}
+
+.input-name {
+    margin-bottom: 17px;
+    background: url(../img/user-icon.svg) no-repeat center left 20px;
+}
+
+.input-phone {
+    margin-bottom: 17px;
+    background: url(../img/phone-icon.svg) no-repeat center left 20px;
+}
+
+.form-button {
+    width: 100%;
+}
+
+.contacts-data {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+
+}
+
+.contacts-text {
+    flex-basis: 50%;
+}
+
+.contacts-phone, .contacts-mail {
+    flex-basis: 50%;
+    margin-bottom: 53px;
+}
+
+.contacts-soical {
+    flex-basis: 100%;   
+}
+
+.contacts-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 37px;
+}
+
+.contacts-link:hover {
+    text-decoration: underline;
+}
+
+.contacts-policy {
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #A5A5A5;
+    margin-top: 72px;
+    display: inline-block;
 }
