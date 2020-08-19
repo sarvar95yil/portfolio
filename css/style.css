@@ -114,7 +114,7 @@ body {
 }
 
 .features-item {
-    flex-basis: 33%;
+    flex-basis: 30%;
     margin-bottom: 63px;
 }
 
@@ -134,4 +134,34 @@ body {
     font-size: 16px;
     line-height: 28px;
     margin: 0;
+}
+
+/* contacts */
+
+.contatcs-form {
+    background: #FFFFFF;
+    box-shadow: -5px 5px 0px #FFC41D;
+    border-radius: 5px;
+    max-width: 380px;
+    padding: 40px 48px 48px 49px;
+}
+
+.form-title {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 29px;
+}
+
+.input {
+    border: none;
+    background: #F8F8F8;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 20px;
+    font-size: 14px;
+    line-height: 28px;
 }
